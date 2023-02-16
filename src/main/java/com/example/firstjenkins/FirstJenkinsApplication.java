@@ -11,7 +11,7 @@ public class FirstJenkinsApplication {
 
 	@GetMapping("/")
 	public String message(){
-		return "first jenkins project return second";
+		return "first jenkins project return third";
 	}
 
 	public static void main(String[] args) {
